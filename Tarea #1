@@ -1,0 +1,132 @@
+correctas = 0
+incorrectas = 0
+
+print("1) ¿Cuál de los siguientes componentes NO es parte fundamental de la arquitectura de Von Neumann?")
+print("1) Tarjeta Gráfica\n2) Memoria principal\n3) Sistema de entrada/Salida\n4) CPU")
+opcion1 = int(input("Tu respuesta: "))
+match opcion1:
+    case 1:
+        print("Correcto")
+        correctas += 1
+    case 2:
+        print("Incorrecto")
+        incorrectas += 1
+    case 3:
+        print("Incorrecto")
+        incorrectas += 1
+    case 4:
+        print("Incorrecto")
+        incorrectas += 1         
+
+print("\n2) El lenguaje máquina está compuesto por:")
+print("1) Símbolos lógicos y matemáticos\n2) Pseudocódigo\n3) Código binario\n4) Instrucciones en inglés abreviado")
+opcion2 = int(input("Tu respuesta: "))
+match opcion2:
+    case 3:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n3) Un lenguaje de programación de alto nivel se caracteriza por:")
+print("1) Ser el más rápido\n2) Tener control sobre hardware\n3) Ser independiente de la arquitectura\n4) Ser muy difícil de aprender")
+opcion3 = int(input("Tu respuesta: "))
+match opcion3:
+    case 3:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+
+
+print("\n4) ¿Qué es un algoritmo?")
+print("1) Una secuencia de pasos finitos\n2) Un lenguaje de programación específico\n3) El código fuente\n4) Instrucciones en código binario")
+opcion4 = int(input("Tu respuesta: "))
+match opcion4:
+    case 1:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n5) En pseudocódigo, ¿qué estructura se usa para ejecutar un bloque de código solo si se cumple una condición?")
+print("1) Repetitiva 'mientras'\n2) Repetitiva 'para'\n3) Secuencial\n4) Condicional o de selección")
+opcion5 = int(input("Tu respuesta: "))
+match opcion5:
+    case 4:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n6) El propósito principal del pseudocódigo es:")
+print("1) Traducir código a lenguaje máquina\n2) Planificar y describir la lógica\n3) Ejecutar programas más rápido\n4) Control sobre registros")
+opcion6 = int(input("Tu respuesta: "))
+match opcion6:
+    case 2:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+
+
+print("\n7) Un programa de computadora es esencialmente:")
+print("1) Una colección de algoritmos\n2) El sistema operativo\n3) Un dispositivo de hardware\n4) Una secuencia de instrucciones")
+opcion7 = int(input("Tu respuesta: "))
+match opcion7:
+    case 4:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n8) ¿Cuál es la principal diferencia entre un bucle 'mientras' y un bucle 'repetir'?")
+print("1) No hay diferencia\n2) Repetir solo usa números\n3) Mientras es más rápido\n4) Mientras puede no ejecutarse, repetir al menos una vez")
+opcion8 = int(input("Tu respuesta: "))
+match opcion8:
+    case 4:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n9) El lenguaje Ensamblador es considerado un lenguaje de nivel...")
+print("1) Medio\n2) Alto\n3) Bajo\n4) Muy alto")
+opcion9 = int(input("Tu respuesta: "))
+match opcion9:
+    case 3:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+print("\n10) ¿Qué estructura de control es más adecuada para iterar un número de veces conocido de antemano?")
+print("1) Bucle 'para'\n2) Sentencia condicional 'si'\n3) Bucle 'repetir'\n4) Bucle 'mientras'")
+opcion10 = int(input("Tu respuesta: "))
+match opcion10:
+    case 1:
+        print("Correcto")
+        correctas += 1
+    case _:
+        print("Incorrecto")
+        incorrectas += 1
+
+
+
+print("\nHas tenido", correctas, "respuestas correctas y", incorrectas, "respuestas incorrectas")
+calificacion = correctas
+print("Tu calificación es de:", calificacion)
+
+
+
+
